@@ -1,0 +1,43 @@
+body{
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    height: 100vh;
+}
+
+.header{
+    color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    margin-top: 5rem;
+    font-family: 'Lobster', cursive;
+}
+
+.dicee{
+    color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 3rem;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: 7rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
